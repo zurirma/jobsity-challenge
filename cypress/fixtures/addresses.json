@@ -1,0 +1,18 @@
+[
+    {
+      "street": "50 1/2 10th Ct",
+      "city": "Hermosa Beach",
+      "zipcode": "90254",
+      "state": "California",
+      "stateValue": 12
+    },
+    {
+      "street": "60 1/2 Beacon Bay",
+      "city": "Newport Beach",
+      "zipcode": "92660",
+      "state": "California",
+      "stateValue": 12
+    }
+    
+  ]
+  

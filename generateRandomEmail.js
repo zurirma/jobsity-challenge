@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker';
 
 /**
- * Generates a random Email based on username and timestamp
+ * Generates a random Email based on username
  * Using the same domain
  * @return {String} Random valid email
  */

@@ -26,6 +26,7 @@ The following test scenarios are automated in this project:
 2.- Error Handling: Ensuring appropriate error messages are displayed when submitting the form with invalid or missing data.
 3.- Valid Data Submission: Validating the form with correct user data and ensuring successful account creation.
 4.- Password Validation: Testing password strength and ensuring that the confirmation password matches.
+5.- Contact form in checkout process.
 
 # How to Run Tests
 To run the tests, follow these steps:
@@ -43,9 +44,11 @@ This will run all tests in the background without opening the UI.
 # Folder Structure
 cypress/: Contains the Cypress test files, fixtures, and support files.
 
-fixtures/: JSON file containing test data, as random passwords.
+fixtures/: JSON files containing test data, as random passwords and addresses.
 support/: Contains the Page Object Model implementation.
 pageObjects/: Contains the CreateAnAccountPage class to handle interactions with different parts of the form.
 
-generateRandomAccount.js: Helper file to generate random user data (e.g., email, first name, last name).
+generateRandomAccount.js: Helper file to generate random user data (email, first name, last name).
+
+
 

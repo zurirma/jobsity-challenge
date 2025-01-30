@@ -2,7 +2,7 @@ import CreateAnAccountPage from '../../support/PageObjects/CreateAnAccountPage.j
 import generateRandomAccount from '../../../generateRandomAccount.js'
 import passwords from '../../fixtures/passwords.json';
 
-describe('Jobsity Challenge', () => {
+describe('Jobsity Challenge - Create a new account', () => {
   let newUser;
 
   beforeEach(() => {
